@@ -16,7 +16,7 @@ def input_word() -> str:
 
 def input_letter() -> str:
     letter = input("Enter a single character: ")
-    # MThis will check if the length of the input for single character is equal to 1
+    # This will check if the length of the input for single character is equal to 1
     if len(letter) != 1:
         print("Error: Character must be a single character.")
         exit()
@@ -25,7 +25,7 @@ def input_letter() -> str:
 
 
 def contains_char(word: str, letter: str) -> None:
-    print("Searching for " + letter + "in" + word)
+    print("Searching for " + letter + " in " + word)
 
     match_count = 0
 
